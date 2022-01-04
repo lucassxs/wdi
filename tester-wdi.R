@@ -8,7 +8,7 @@ library(WDI)        # for World Bank goodness
 library(kableExtra) # for tables, where appropriate
 
 WDI(
-  country = "BR",
+  country = "BR", 
   indicator = "NY.GDP.PCAP.KD",
   start = 2001,
   end = 2020,
