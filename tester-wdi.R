@@ -45,3 +45,4 @@ Data %>%
        caption = "Data: International Monetary Fund, via {WDI}",
        title = "The Consumer Price Index (Annual %) in Mexico, 1960-2020",
        subtitle = "Debt crises and currency devaluations will account for the spikes you see.")
+ggsave("plot-teste.png")
